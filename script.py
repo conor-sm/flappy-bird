@@ -98,7 +98,7 @@ def game():
     screen.fill((0, 0, 0))
     player.draw()
     current_time = pygame.time.get_ticks()
-    if current_time - last_pipe_time > 1500:
+    if current_time - last_pipe_time > 1750:
         pipes.append(Pipe(SCREEN_WIDTH))
         last_pipe_time = current_time
 
